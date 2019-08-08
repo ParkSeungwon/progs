@@ -7,7 +7,7 @@ struct A {
 
 int main()
 {
-	A a{ .a=1, .b=4, .c=2 };
+	A a{ a:1, b:4, c:2 };
 
 	cout << a.a << ' ' << a.b << ' ' << a.c << endl;
 
